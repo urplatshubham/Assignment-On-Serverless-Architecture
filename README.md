@@ -105,5 +105,5 @@ I wrote a Python-based Lambda function using **Boto3** to delete log files older
 ---
 
 ## **Conclusion**
-With the help of the assignments I was able to demonstrate how to automate routine AWS tasks using Lambda and Boto3, including EC2 management, S3 file cleanup, and auditing bucket encryption.
+With the help of the assignments I was able to demonstrate how to automate routine AWS tasks using Lambda and Boto3, including EC2 management, S3 file cleanup, and auditing bucket encryption. All the required screenshots are attached under the Assignment - Screenshots folder and also uploaded the relevant Boto3 code which I had used.
 
