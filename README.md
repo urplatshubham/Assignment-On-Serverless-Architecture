@@ -18,7 +18,7 @@ The goal of this assignment was to automate the stopping and starting of EC2 ins
 ### **Steps I took to complete this assignment**
 1. **Creating a lambda function**:
    - I navigated to Lambda page -> Named the function "SR-EC2_AutoStartStop"
-   - I used an **existing IAM role** that already had permissions to access EC2 and manage instances.![CloudWatchResult](https://github.com/urplatshubham/Assignment-On-Serverless-Architecture/blob/main/Assignment%20-%20Screenshots/Role-assignment.png)
+   - I used an **existing IAM role** that already had permissions to access EC2 and manage instances.
    - I used 'Sonal_EC2FullAcess' which had the role configured for my Lambda function to use
    - I added an estimate timeout of 2 min to prevent from failing of execution of the lambda function
   
@@ -47,7 +47,8 @@ The goal of this assignment was to automate the deletion of files older than 30 
 1. **Creating a lambda function**:
    - I navigated to Lambda page -> Named the function "S3CleanupFunction-SR"
    - I used an **existing IAM role** that already had permissions to access S3 and manage storage.
-   - I used 'service-role/prashant-s3-lambda-role' which had the role configured for my Lambda function to use
+   - I used 'service-role/prashant-s3-lambda-role' which had the role configured for my Lambda function to use.
+   - Attached screenshot for referrence: ![CloudWatchResult](https://github.com/urplatshubham/Assignment-On-Serverless-Architecture/blob/main/Assignment%20-%20Screenshots/Role-assignment.png)
    - I added an estimate timeout of 2 min to prevent from failing of execution of the lambda function
 
 2. **Lambda Function Code**:
