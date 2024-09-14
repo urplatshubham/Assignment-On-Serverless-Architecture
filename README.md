@@ -30,10 +30,10 @@ The goal of this assignment was to automate the stopping and starting of EC2 ins
      Key: Action and Value: Auto-Start
    - Launched both the instances
 
-4. **Writing the Lambda Function Code**:
+3. **Writing the Lambda Function Code**:
 I wrote a Python-based Lambda function using **Boto3** to describe EC2 instances, checking their tags, and either stop or start the instances leveraging some help from internet and ChatGPT.
 
-5. **Testing**:
+4. **Testing**:
 I manually tested the function by invoking the Lambda function in the console and checking the EC2 dashboard for status changes. Then I checked the cloudwatch log for verifying
 ![CloudWatchResult](https://github.com/urplatshubham/Assignment-On-Serverless-Architecture/blob/main/Assignment%20-%20Screenshots/Assignment1-watchlog.png)
 ---
@@ -51,8 +51,8 @@ The goal of this assignment was to automate the deletion of files older than 30 
    - Attached screenshot for referrence: ![CloudWatchResult](https://github.com/urplatshubham/Assignment-On-Serverless-Architecture/blob/main/Assignment%20-%20Screenshots/Role-assignment.png)
    - I added an estimate timeout of 2 min to prevent from failing of execution of the lambda function
 
-2. **Lambda Function Code**:
-I wrote a Python-based Lambda function using **Boto3** to list the objects in an S3 bucket and delete those older than 30 days.
+2. **Writing the Lambda Function Code**:
+I wrote a Python-based Lambda function using **Boto3** to list the objects in an S3 bucket and delete those older than 30 days leveraging some help from internet and ChatGPT.
 
 3. **Testing**:
 I manually Uploaded a file to the S3 bucket which was an old one (30 days older) and invoked function by manually invoking it. Verified that files older than 30 days were successfully deleted.
@@ -71,8 +71,8 @@ The goal of this assignment was to identify S3 buckets that do not have server-s
    - I used 'service-role/prashant-s3-lambda-role' which had the role configured for my Lambda function to use
    - I added an estimate timeout of 2 min to prevent from failing of execution of the lambda function
 
-2. **Lambda Function Code**:
-I wrote a Python-based Lambda function using **Boto3** to check all S3 buckets for encryption and log the ones that do not have encryption enabled.
+2. **Writing the Lambda Function Code**:
+I wrote a Python-based Lambda function using **Boto3** to check all S3 buckets for encryption and log the ones that do not have encryption enabled leveraging some help from internet and ChatGPT.
 
 3. **Testing**:
 I manually tested the function by checking the CloudWatch logs for unencrypted buckets for which I have attached a screenshot above.
@@ -90,8 +90,8 @@ The goal of this assignment was to implement a Lambda function that automaticall
    - I used 'service-role/prashant-s3-lambda-role' which had the role configured for my Lambda function to use
    - Add an estimate timeout of 2 min to prevent from failing of execution of the lambda function
 
-2. **Lambda Function Code**:
-I wrote a Python-based Lambda function using **Boto3** to delete log files older than 90 days from the specified S3 bucket.
+2. **Writing the Lambda Function Code**:
+I wrote a Python-based Lambda function using **Boto3** to delete log files older than 90 days from the specified S3 bucket leveraging some help from internet and ChatGPT.
 
 ### **Testing**:
 1. To test the functionality of the code:
