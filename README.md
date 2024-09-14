@@ -34,7 +34,7 @@ The goal of this assignment was to automate the stopping and starting of EC2 ins
 I wrote a Python-based Lambda function using **Boto3** to describe EC2 instances, checking their tags, and either stop or start the instances leveraging some help from internet and ChatGPT.
 
 5. **Testing**:
-I manually tested the function by invoking the Lambda function in the console and checking the EC2 dashboard for status changes.
+I manually tested the function by invoking the Lambda function in the console and checking the EC2 dashboard for status changes. Then I checked the cloudwatch log for verifying
 ![CloudWatchResult](https://github.com/urplatshubham/Assignment-On-Serverless-Architecture/blob/main/Assignment%20-%20Screenshots/Assignment1-watchlog.png)
 ---
 
