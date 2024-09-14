@@ -18,7 +18,7 @@ The goal of this assignment was to automate the stopping and starting of EC2 ins
 ### **Steps I took to complete this assignment**
 1. **Creating a lambda function**:
    - I navigated to Lambda page -> Named the function "SR-EC2_AutoStartStop"
-   - I used an **existing IAM role** that already had permissions to access EC2 and manage instances.
+   - I used an **existing IAM role** that already had permissions to access EC2 and manage instances.![CloudWatchResult](https://github.com/urplatshubham/Assignment-On-Serverless-Architecture/blob/main/Assignment%20-%20Screenshots/Role-assignment.png)
    - I used 'Sonal_EC2FullAcess' which had the role configured for my Lambda function to use
    - I added an estimate timeout of 2 min to prevent from failing of execution of the lambda function
   
@@ -35,7 +35,7 @@ I wrote a Python-based Lambda function using **Boto3** to describe EC2 instances
 
 5. **Testing**:
 I manually tested the function by invoking the Lambda function in the console and checking the EC2 dashboard for status changes.
-![CloudWatchResult](https://github.com/urplatshubham/Assignment-On-Serverless-Architecture/blob/main/Assignment%20-%20Screenshots/Assignment15.png)
+![CloudWatchResult]()
 ---
 
 ## **Assignment 2: Automated S3 Bucket Cleanup Using AWS Lambda and Boto3**
@@ -55,7 +55,7 @@ I wrote a Python-based Lambda function using **Boto3** to list the objects in an
 
 3. **Testing**:
 I manually Uploaded a file to the S3 bucket which was an old one (30 days older) and invoked function by manually invoking it. Verified that files older than 30 days were successfully deleted.
-![CloudWatchResult](https://github.com/urplatshubham/Assignment-On-Serverless-Architecture/blob/main/Assignment%20-%20Screenshots/Logs-Assignment3.png)
+![CloudWatchResult]()
 ---
 
 ## **Assignment 3: Monitor Unencrypted S3 Buckets Using AWS Lambda and Boto3**
@@ -75,7 +75,6 @@ I wrote a Python-based Lambda function using **Boto3** to check all S3 buckets f
 
 3. **Testing**:
 I manually tested the function by checking the CloudWatch logs for unencrypted buckets for which I have attached a screenshot above.
-![CloudWatchResult](https://github.com/urplatshubham/Assignment-On-Serverless-Architecture/blob/main/Assignment%20-%20Screenshots/Role-assignment.png)
 ![CloudWatchResult](https://github.com/urplatshubham/Assignment-On-Serverless-Architecture/blob/main/Assignment%20-%20Screenshots/Logs-Assignment3.png)
 ---
 
