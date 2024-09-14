@@ -35,7 +35,7 @@ I wrote a Python-based Lambda function using **Boto3** to describe EC2 instances
 
 5. **Testing**:
 I manually tested the function by invoking the Lambda function in the console and checking the EC2 dashboard for status changes.
-![CloudWatchResult]()
+![CloudWatchResult](https://github.com/urplatshubham/Assignment-On-Serverless-Architecture/blob/main/Assignment%20-%20Screenshots/Assignment1-watchlog.png)
 ---
 
 ## **Assignment 2: Automated S3 Bucket Cleanup Using AWS Lambda and Boto3**
