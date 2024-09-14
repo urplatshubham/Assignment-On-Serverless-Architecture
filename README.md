@@ -56,7 +56,7 @@ I wrote a Python-based Lambda function using **Boto3** to list the objects in an
 
 3. **Testing**:
 I manually Uploaded a file to the S3 bucket which was an old one (30 days older) and invoked function by manually invoking it. Verified that files older than 30 days were successfully deleted.
-![CloudWatchResult]()
+![CloudWatchResult](https://github.com/urplatshubham/Assignment-On-Serverless-Architecture/blob/main/Assignment%20-%20Screenshots/Assignment2-cleanup.png)
 ---
 
 ## **Assignment 3: Monitor Unencrypted S3 Buckets Using AWS Lambda and Boto3**
