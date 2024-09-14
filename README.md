@@ -35,7 +35,7 @@ I wrote a Python-based Lambda function using **Boto3** to describe EC2 instances
 
 5. **Testing**:
 I manually tested the function by invoking the Lambda function in the console and checking the EC2 dashboard for status changes.
-![CloudWatchResult](https://github.com/urplatshubham/Assignment-On-Serverless-Architecture/blob/main/Assignment%20-%20Screenshots/Role-assignment.png)
+![CloudWatchResult](https://github.com/urplatshubham/Assignment-On-Serverless-Architecture/blob/main/Assignment%20-%20Screenshots/Assignment15.png)
 ---
 
 ## **Assignment 2: Automated S3 Bucket Cleanup Using AWS Lambda and Boto3**
@@ -55,7 +55,7 @@ I wrote a Python-based Lambda function using **Boto3** to list the objects in an
 
 3. **Testing**:
 I manually Uploaded a file to the S3 bucket which was an old one (30 days older) and invoked function by manually invoking it. Verified that files older than 30 days were successfully deleted.
-![CloudWatchResult](https://github.com/urplatshubham/Assignment-On-Serverless-Architecture/blob/main/Assignment%20-%20Screenshots/Role-assignment.png)
+![CloudWatchResult](https://github.com/urplatshubham/Assignment-On-Serverless-Architecture/blob/main/Assignment%20-%20Screenshots/Logs-Assignment3.png)
 ---
 
 ## **Assignment 3: Monitor Unencrypted S3 Buckets Using AWS Lambda and Boto3**
@@ -76,7 +76,7 @@ I wrote a Python-based Lambda function using **Boto3** to check all S3 buckets f
 3. **Testing**:
 I manually tested the function by checking the CloudWatch logs for unencrypted buckets for which I have attached a screenshot above.
 ![CloudWatchResult](https://github.com/urplatshubham/Assignment-On-Serverless-Architecture/blob/main/Assignment%20-%20Screenshots/Role-assignment.png)
-
+![CloudWatchResult](https://github.com/urplatshubham/Assignment-On-Serverless-Architecture/blob/main/Assignment%20-%20Screenshots/Logs-Assignment3.png)
 ---
 
 ## **Assignment 15: Implement a Log Cleaner for S3**
@@ -101,7 +101,7 @@ I wrote a Python-based Lambda function using **Boto3** to delete log files older
    - Finally verified that the log file was deleted and that the appropriate logging information was written to CloudWatch.
 
 3. After confirming that the Lambda with its desired functionality worked with a simulated 1-day old log, reverted the `DELETE_AFTER_DAYS` value to 90 for actual use.
-
+![CloudWatchResult](https://github.com/urplatshubham/Assignment-On-Serverless-Architecture/blob/main/Assignment%20-%20Screenshots/Assignment15.png)
 ---
 
 ## **Conclusion**
