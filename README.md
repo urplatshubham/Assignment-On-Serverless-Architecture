@@ -75,7 +75,7 @@ I wrote a Python-based Lambda function using **Boto3** to check all S3 buckets f
 
 3. **Testing**:
 I manually tested the function by checking the CloudWatch logs for unencrypted buckets for which I have attached a screenshot above.
-![CloudWatchResult]()
+![CloudWatchResult]('https://github.com/urplatshubham/Assignment-On-Serverless-Architecture/blob/main/Assignment%20-%20Screenshots/Role-assignment.png')
 
 ---
 
